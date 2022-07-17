@@ -5,7 +5,7 @@ console.log(`gia tri cua a la: ${a}
 gia tri cua b = ${b}`)
 
 
-// let vs var, let bat loi chat. hon var, VD
+// let vs var, let bắt lỗi chặt hơn var, VD
 function run(){
     var tiep='tiep';
     let duc =`duc`;
@@ -16,7 +16,7 @@ function run(){
         console.log(tiep1);
         console.log(duc1);
     }
-    console.log(tiep1);// tiep1 chua khai bao nhung van co gia tri
+    console.log(tiep1);// tiep1 chưa khai báo nhưng vẫn có giá trị
     console.log(duc1);
 }
 run();
